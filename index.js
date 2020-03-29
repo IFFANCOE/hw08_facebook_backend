@@ -70,5 +70,5 @@ router.route('/auth/psu')
     .post(psuRoutes.login);
 
 app.use("*", (req, res) => res.status(404).send('404 Not found'));
-//app.listen(process.env.PORT, () => console.log(process.env.PORT));
-app.listen(3000, () => console.log("Server is running"));
+// app.listen(process.env.PORT, () => console.log(process.env.PORT));
+app.listen(4000, () => console.log("Server is running"));
